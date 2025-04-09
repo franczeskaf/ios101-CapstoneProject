@@ -38,7 +38,7 @@
 - **Habit**: Moderate use, based on location.
 - **Scope**: Medium, requires API integration.
 
-### 3. OutfitGo ✅ *(Chosen App)*
+### 3. StyleCast *(Chosen App)*
 - **Mobile**: Great use case for location & weather-based API.
 - **Story**: Very compelling, solves a real travel problem.
 - **Market**: Appealing to travelers, fashion-focused users.
@@ -49,7 +49,7 @@
 
 ## Final App Idea
 
-**App Name**: OutfitGo  
+**App Name**: StyleCast  
 **Category**: Fashion / Travel  
 **Description**:  
 Plan what to wear on your next trip based on the weather forecast. Add your destination and get recommended outfit combinations depending on temperature and weather conditions. You can also save packing lists and past trips.
