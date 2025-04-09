@@ -17,7 +17,7 @@ StyleCast is a travel outfit planning app that helps users decide what to pack a
 
 ## App Spec
 
-### Required Features (MVP)
+### Main Features
 - Add a new trip with city and destination type
 - Fetch and display the weather forecast using OpenWeatherMap API
 - Suggest outfit combinations based on weather
