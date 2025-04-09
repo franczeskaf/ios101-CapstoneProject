@@ -48,13 +48,13 @@ StyleCast is a travel outfit planning app that helps users decide what to pack a
 
 ## Sprint Plan
 
-| Sprint  | Goal                                          |
-|---------|-----------------------------------------------|
-| Week 1  | Setup GitHub repo and base UI layout          |x|
-| Week 2  | Add Trip form UI and TableView for trips      ||
-| Week 3  | Integrate OpenWeatherMap API for forecast     ||
-| Week 4  | Add outfit suggestion logic and save data     ||
-| Week 5  | Polish UI, finalize features, record demo     ||
+| Sprint  | Goal                                          | Status   |
+|---------|-----------------------------------------------|----------|
+| Week 1  | Setup GitHub repo and base UI layout          | [x]      |
+| Week 2  | Add Trip form UI and TableView for trips      | [ ]      |
+| Week 3  | Integrate OpenWeatherMap API for forecast     | [ ]      |
+| Week 4  | Add outfit suggestion logic and save data     | [ ]      |
+| Week 5  | Polish UI, finalize features, record demo     | [ ]      |
 
 ## Wireframes
 
