@@ -1,12 +1,12 @@
 # StyleCast
 
 ## Table of Contents
-- Overview
-- Product Spec
-- Wireframes
-- Schema
-- Demo
-- Progress Update
+[Overview](#Overview)
+[Product Spec](#Prodcuct-Spec)
+[Wireframes](#Wireframes)
+[Schema](#Schema)
+[Demo](#Demo)
+[Progress Update](#Progress-Update)
 
 ---
 
