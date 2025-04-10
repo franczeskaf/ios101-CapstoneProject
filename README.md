@@ -94,7 +94,8 @@ This wireframe shows the full navigation and feature layout of the StyleCast app
 
 ## Demo
 
-Watch the Week 11 Demo: [LINK TO VIDEO]
+Watch the Week 11 Demo:
+<div style="position: relative; padding-bottom: 214.51292246520873%; height: 0;"><iframe src="https://www.loom.com/embed/38de962ac7244ac8af96f74f85d90ef3?sid=3382722d-0a5b-4bed-96e7-8d5f88a695cc" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 ---
 
