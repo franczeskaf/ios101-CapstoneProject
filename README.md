@@ -106,7 +106,8 @@ Watch the Week 11 Demo:
 
 ---
 
-## Progress Update (Week 11)
+## Progress Update 
+## Week 11
 
 ### Completed
 - [x] Created Xcode project with Storyboard
