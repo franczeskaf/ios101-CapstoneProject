@@ -95,18 +95,15 @@ This wireframe shows the full navigation and feature layout of the StyleCast app
 ## Demo
 
 Watch the Week 11 Demo:
-<div style="position: relative; padding-bottom: 214.51292246520873%; height: 0;"><iframe src="https://www.loom.com/embed/38de962ac7244ac8af96f74f85d90ef3?sid=3382722d-0a5b-4bed-96e7-8d5f88a695cc" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-
-
-
 <div>
-    <a href=https://www.loom.com/embed/38de962ac7244ac8af96f74f85d90ef3?sid=3382722d-0a5b-4bed-96e7-8d5f88a695cc" >
-      <p>Project6 Tumblr Starter</p>
-    </a>
-    <a href="https://www.loom.com/embed/38de962ac7244ac8af96f74f85d90ef3?sid=3382722d-0a5b-4bed-96e7-8d5f88a695cc" >
-      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/d9df3f18f9c440538d396aecc41b26fd-41a471cd86e9aa49-full-play.gif">
-    </a>
-  </div>
+  <a href="https://www.loom.com/share/38de962ac7244ac8af96f74f85d90ef3">
+    <p>StyleCast – Week 11 Demo</p>
+  </a>
+  <a href="https://www.loom.com/share/38de962ac7244ac8af96f74f85d90ef3">
+    <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/38de962ac7244ac8af96f74f85d90ef3-with-play.gif">
+  </a>
+</div>
+
 ---
 
 ## Progress Update (Week 11)
