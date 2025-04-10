@@ -83,7 +83,12 @@ StyleCast is a travel outfit planning app that helps users decide what to pack a
 
 ### Hand-drawn Wireframes
 
-![StyleCast Wireframe](images/stylecast_wireframe.png)
+![StyleCast Wireframe](stylecast_wireframe.png)
+
+This wireframe shows the full navigation and feature layout of the StyleCast app. It includes:
+- Tab bar navigation between My Trips, Add Trip, and Profile
+- Flow between Add Trip → Outfit Suggestion → Save Trip
+- Detailed trip info screen and feature checklist
 
 ---
 
