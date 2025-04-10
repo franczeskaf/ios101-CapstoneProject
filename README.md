@@ -79,35 +79,34 @@ StyleCast is a travel outfit planning app that helps users decide what to pack a
 - **My Trips** → Trip Detail Screen
 
 ---
-
 ## Wireframes
 
 ### Hand-drawn Wireframes
 
-Add your sketches here once you’ve uploaded them to your GitHub repo:
-
-```markdown
-![Trip List](images/trip_list_wireframe.jpg)
-![Add Trip](images/add_trip_wireframe.jpg)
-![Weather Suggestion](images/outfit_result_wireframe.jpg)
+![Trip List](images/trip_list_wireframe.jpg)  
+![Add Trip](images/add_trip_wireframe.jpg)  
+![Weather Suggestion](images/outfit_result_wireframe.jpg)  
 ![Profile](images/profile_wireframe.jpg)
+
+---
 
 ## Demo
 
 Watch the Week 11 Demo: [LINK TO VIDEO]
 
+---
+
 ## Progress Update (Week 11)
 
-### ✅ Completed
+### Completed
 - [x] Created Xcode project with Storyboard
 - [x] Implemented Tab Bar with three screens (Trips, Add Trip, Profile)
 - [x] Created TripListViewController with mock data
 - [x] Connected Storyboard UI elements to Swift code
 
-### 🔜 In Progress
+### In Progress
 - [ ] API integration with OpenWeatherMap
 - [ ] Outfit suggestion logic
 - [ ] Save/load trips using UserDefaults
 - [ ] Wireframe images upload
-
 
