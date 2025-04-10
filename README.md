@@ -102,6 +102,7 @@ Watch the Week 11 Demo: [LINK TO VIDEO]
 
 ### Completed
 - [x] Created Xcode project with Storyboard
+- [x] Wireframe images upload
 - [x] Implemented Tab Bar with three screens (Trips, Add Trip, Profile)
 - [x] Created TripListViewController with mock data
 - [x] Connected Storyboard UI elements to Swift code
@@ -110,5 +111,5 @@ Watch the Week 11 Demo: [LINK TO VIDEO]
 - [ ] API integration with OpenWeatherMap
 - [ ] Outfit suggestion logic
 - [ ] Save/load trips using UserDefaults
-- [ ] Wireframe images upload
+- [ ] 
 
