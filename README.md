@@ -1,61 +1,113 @@
-# ios101-CapstoneProject
 # StyleCast
 
-## App Overview
+## Table of Contents
+- Overview
+- Product Spec
+- Wireframes
+- Schema
+- Demo
+- Progress Update
 
-StyleCast is a travel outfit planning app that helps users decide what to pack and wear based on the weather forecast for their destination. Users can input a city and destination type, view the weather, and receive curated outfit suggestions. All trip plans and outfit combos are saved locally and can be viewed or edited later.
+---
 
-## App Evaluation
+## Overview
 
-| Criteria     | Evaluation |
-|--------------|------------|
-| Mobile       | Uses an API to fetch weather data, supports navigation and user-generated content. |
-| Story        | Solves a real travel planning problem by helping users pack based on forecasted weather. |
-| Market       | Appeals to travelers, fashion-conscious users, and organizers. |
-| Habit        | Used moderately during trip planning. Reusable for each new trip. |
-| Scope        | Well-contained for an MVP and offers room for optional enhancements. |
+### Description
+StyleCast is a travel outfit planning app that helps users decide what to pack and wear based on the weather forecast at their destination. Users can input a city and destination type, receive real-time weather forecasts via the OpenWeatherMap API, and get personalized outfit suggestions. Trips and suggestions are saved locally, and users can view them later through the Trips tab. The app includes a tabbed interface for quick navigation between Trips, Add Trip, and Profile.
 
-## App Spec
+### App Evaluation
 
-### Required Features (MVP)
-- Add a new trip with city and destination type
-- Fetch and display the weather forecast using OpenWeatherMap API
-- Suggest outfit combinations based on weather
-- Save trip details and outfit suggestions using UserDefaults
-- Display saved trips in a UITableView
+| Attribute | Description |
+|-----------|-------------|
+| **Category** | Travel / Fashion |
+| **Mobile** | Makes use of tab navigation, API integration, local data storage, and contextual weather-based features |
+| **Story** | Helps travelers plan appropriate outfits based on weather — something people actually worry about before trips |
+| **Market** | Ideal for students, fashion-conscious travelers, influencers, and organized planners |
+| **Habit** | Used at the start of each trip, and repeatedly for frequent travelers |
+| **Scope** | MVP is clearly defined and manageable, and optional features like profile customization and outfit editing are great for expansion |
 
-### Optional Features
-- Customize outfit recommendations
-- Add icons or images for outfits
-- Calendar integration for trip dates
-- Tabbed layout for My Trips and Recommendations
+---
 
-## Screens
+## Product Spec
 
-1. Trip List Screen – Displays all saved trips using a TableView
-2. Add Trip Screen – Input city and destination type
-3. Weather & Outfit Suggestion Screen – Displays weather forecast and outfit ideas
-4. Trip Detail Screen – Displays stored data about a selected trip
+### 1. User Stories
 
-## Navigation Flow
+#### Required Must-have Stories
+- User can add a new trip by entering a city and selecting a destination type
+- User can fetch the current weather for the city using OpenWeatherMap API
+- User receives recommended outfit suggestions based on weather
+- User can save the trip and outfit recommendation locally (UserDefaults)
+- User can view a list of saved trips in a TableView
 
-- Flow Navigation:
-  - Trip List → Trip Detail
-  - Add Trip → Weather & Outfit View → Save Trip
+#### Optional Nice-to-have Stories
+- User can customize or edit outfit recommendations before saving
+- User can view weather-related outfit icons or images
+- User can pick a trip date using a calendar
+- User can edit name/email on a Profile tab
+- User can delete or re-plan existing trips
 
-- Optional Tab Navigation:
-  - My Trips | Add Trip | Outfit Ideas
+---
 
-## Sprint Plan
+### 2. Screen Archetypes
 
-| Sprint  | Goal                                          | Status   |
-|---------|-----------------------------------------------|----------|
-| Week 1  | Setup GitHub repo and base UI layout          | [x]      |
-| Week 2  | Add Trip form UI and TableView for trips      | [ ]      |
-| Week 3  | Integrate OpenWeatherMap API for forecast     | [ ]      |
-| Week 4  | Add outfit suggestion logic and save data     | [ ]      |
-| Week 5  | Polish UI, finalize features, record demo     | [ ]      |
+- **Trip List Screen**
+  - User can view all saved trips with location, destination type, weather, and outfit details
+
+- **Add Trip Screen**
+  - User can enter a city and select destination type using segmented control
+
+- **Weather & Outfit Suggestion Screen**
+  - User can view weather forecast and receive tailored outfit ideas
+
+- **Trip Detail Screen**
+  - User can see full trip details including outfit breakdown
+
+- **User Profile Screen**
+  - User can view/edit their profile info (name, email), saved using UserDefaults
+
+---
+
+### 3. Navigation
+
+#### Tab Navigation (Tab to Screen)
+- **My Trips** → Trip List Screen  
+- **Add Trip** → Add Trip Screen  
+- **Profile** → User Profile Screen  
+
+#### Flow Navigation (Screen to Screen)
+- **Add Trip** → Weather & Outfit Suggestion Screen → Save Trip → Return to Trips
+- **My Trips** → Trip Detail Screen
+
+---
 
 ## Wireframes
+
+### Hand-drawn Wireframes
+
+Add your sketches here once you’ve uploaded them to your GitHub repo:
+
+```markdown
+![Trip List](images/trip_list_wireframe.jpg)
+![Add Trip](images/add_trip_wireframe.jpg)
+![Weather Suggestion](images/outfit_result_wireframe.jpg)
+![Profile](images/profile_wireframe.jpg)
+
+## Demo
+
+Watch the Week 11 Demo: [LINK TO VIDEO]
+
+## Progress Update (Week 11)
+
+### ✅ Completed
+- [x] Created Xcode project with Storyboard
+- [x] Implemented Tab Bar with three screens (Trips, Add Trip, Profile)
+- [x] Created TripListViewController with mock data
+- [x] Connected Storyboard UI elements to Swift code
+
+### 🔜 In Progress
+- [ ] API integration with OpenWeatherMap
+- [ ] Outfit suggestion logic
+- [ ] Save/load trips using UserDefaults
+- [ ] Wireframe images upload
 
 
