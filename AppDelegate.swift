@@ -14,6 +14,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        // Add default trips if not already saved
+        if UserDefaults.standard.data(forKey: "savedTrips") == nil {
+            let defaultTrips = [
+                Trip(city: "Italy", type: "City", weather: "70°F, Sunny", outfit: "T-shirt and jeans"),
+                Trip(city: "Philippines", type: "Beach", weather: "88°F, Humid", outfit: "Tank top and shorts"),
+                Trip(city: "Japan", type: "City", weather: "60°F, Cloudy", outfit: "Light jacket and pants")
+            ]
+            if let encoded = try? JSONEncoder().encode(defaultTrips) {
+                UserDefaults.standard.set(encoded, forKey: "savedTrips")
+            }
+        }
         return true
     }
 
@@ -33,4 +44,3 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 }
-
